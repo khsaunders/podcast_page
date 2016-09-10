@@ -261,20 +261,38 @@ body {
   z-index: 5;
   display: block; }
   #headWrapper .pageTitle {
+    text-align: right;
     font-family: Alfa Slab One, serif;
     font-size: 5em;
     letter-spacing: 0.1em;
     width: 90%;
     margin: auto; }
+  #headWrapper .podcastPlug {
+    position: relative;
+    display: inline-block;
+    left: 43%;
+    font-size: 1.5em;
+    letter-spacing: .15em; }
   #headWrapper .fa {
-    font-size: 2.5em; }
+    font-size: 2.5em;
+    position: relative; }
     #headWrapper .fa:hover {
       cursor: pointer; }
+  #headWrapper #verticalIcons {
+    position: fixed;
+    padding-right: 5%; }
 
 #pageWrapper {
   font-size: 1.5em;
-  width: 80%;
+  width: 85%;
   margin: auto; }
+  #pageWrapper h2 {
+    text-align: center; }
+  #pageWrapper .names {
+    text-align: center; }
+  #pageWrapper .cartoons {
+    position: relative;
+    content-align: center; }
 
 #footWrapper {
   display: block;

@@ -272,23 +272,46 @@ body {
     z-index: 5;
     display: block;
     .pageTitle {
+        text-align: right;
         font-family: $font1;
         font-size: 5em;
         letter-spacing: 0.1em;
         width: 90%;
         margin: auto;
     }
-    .fa {
+    .podcastPlug {
+        position: relative;
+        display: inline-block;
+        left: 43%;
+        font-size: 1.5em;
+        letter-spacing: .15em;
+    }
+    .fa{
         font-size: 2.5em;
+        position: relative;
         &:hover {
             cursor: pointer;
         }
     }
+    #verticalIcons{
+      position: fixed;
+      padding-right: 5%;
+    }
 }
 #pageWrapper {
     font-size: 1.5em;
-    width: 80%;
+    width: 85%;
     margin: auto;
+    h2{
+      text-align: center;
+    }
+    .names{
+      text-align: center;
+    }
+    .cartoons{
+      position: relative;
+      content-align: center;
+    }
 }
 #footWrapper {
     display: block;

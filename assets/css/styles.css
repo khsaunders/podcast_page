@@ -243,48 +243,46 @@
     width: 0;
     height: 0; } }
 body {
-  background-color: #FBF6F5;
-  color: black;
+  background-color: #A3C8F3;
+  color: #FBF6F5;
   font-family: PT Sans, sans-serif; }
   body a {
-    color: #F35848; }
+    color: #C2412E; }
     body a:visited {
-      color: #F35848; }
+      color: #C2412E; }
+  body ul {
+    list-style: none; }
 
 #headWrapper {
-  background-color: #31497D;
-  color: #F35848;
+  color: #C2412E;
   width: 100%;
-  padding: 4%;
+  padding: 1%;
   position: relative;
   z-index: 5;
-  margin-top: -.3em -.4em 0 -.4em;
   display: block; }
-  #headWrapper .fa {
-    font-size: 2.5em; }
-    #headWrapper .fa:hover {
-      cursor: pointer; }
-  #headWrapper h1 {
+  #headWrapper .pageTitle {
     font-family: Alfa Slab One, serif;
     font-size: 5em;
     letter-spacing: 0.1em;
     width: 90%;
     margin: auto; }
+  #headWrapper .fa {
+    font-size: 2.5em; }
+    #headWrapper .fa:hover {
+      cursor: pointer; }
 
 #pageWrapper {
   font-size: 1.5em;
   width: 80%;
   margin: auto; }
-  #pageWrapper ul {
-    list-style: none; }
 
 #footWrapper {
   display: block;
   width: 100%;
-  color: #F35848;
+  color: #C2412E;
   z-index: 6;
   font-size: 2.5em;
-  padding: 5% 0 3% 0;
+  padding: 5% 0 3%;
   text-align: center; }
   #footWrapper .fa:hover {
     cursor: pointer; }

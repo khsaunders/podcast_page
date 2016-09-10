@@ -1,8 +1,8 @@
 $font1: Alfa Slab One, serif;
 $font2: PT Sans, sans-serif;
 $darkColor: #31497D;
-$midColor: #74A5DB;
-$accentColor: #F35848;
+$midColor: #A3C8F3;
+$accentColor: #C2412E;
 $white: #FBF6F5;
 /*
   Simple Grid
@@ -251,56 +251,54 @@ $white: #FBF6F5;
     }
 }
 body {
-    background-color: $white;
-    color: black;
+    background-color: $midColor;
+    color: $white;
     font-family: $font2;
-    a{
-      color: $accentColor;
-      &:visited{
+    a {
         color: $accentColor;
-      }
+        &:visited {
+            color: $accentColor;
+        }
+    }
+    ul {
+        list-style: none;
     }
 }
 #headWrapper {
-    background-color: $darkColor;
     color: $accentColor;
     width: 100%;
-    padding: 4%;
+    padding: 1%;
     position: relative;
     z-index: 5;
-    margin-top: -.3em -.4em 0 -.4em;
     display: block;
-    .fa{
-      font-size: 2.5em;
-      &:hover{
-        cursor: pointer;
-      }
-    }
-    h1 {
+    .pageTitle {
         font-family: $font1;
         font-size: 5em;
         letter-spacing: 0.1em;
         width: 90%;
         margin: auto;
     }
-}
-#pageWrapper {
-  font-size: 1.5em;
-  width: 80%;
-  margin: auto;
-    ul {
-        list-style: none;
+    .fa {
+        font-size: 2.5em;
+        &:hover {
+            cursor: pointer;
+        }
     }
 }
-#footWrapper{
-  display: block;
-  width: 100%;
-  color: $accentColor;
-  z-index: 6;
-  font-size: 2.5em;
-  padding: 5% 0 3% 0;
-  text-align: center;
-  .fa:hover{
-    cursor: pointer;
-  }
+#pageWrapper {
+    font-size: 1.5em;
+    width: 80%;
+    margin: auto;
+}
+#footWrapper {
+    display: block;
+    width: 100%;
+    color: $accentColor;
+    z-index: 6;
+    font-size: 2.5em;
+    padding: 5% 0 3%;
+    text-align: center;
+    .fa:hover {
+        cursor: pointer;
+    }
 }

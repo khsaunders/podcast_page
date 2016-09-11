@@ -1,5 +1,5 @@
 $font1: Alfa Slab One, serif;
-$font2: PT Sans, sans-serif;
+$font2: Lato, serif;
 $darkColor: #31497D;
 $midColor: #A3C8F3;
 $accentColor: #C2412E;
@@ -284,7 +284,6 @@ body {
         display: inline-block;
         left: 43%;
         font-size: 1.5em;
-        letter-spacing: .15em;
     }
     .fa{
         font-size: 2.5em;
@@ -295,7 +294,8 @@ body {
     }
     #verticalIcons{
       position: fixed;
-      padding-right: 5%;
+      padding: 0 1.5%;
+      margin: 1% 5% 0 0%;
     }
 }
 #pageWrapper {

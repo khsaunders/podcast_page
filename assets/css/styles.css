@@ -245,7 +245,7 @@
 body {
   background-color: #A3C8F3;
   color: #FBF6F5;
-  font-family: PT Sans, sans-serif; }
+  font-family: Lato, serif; }
   body a {
     color: #C2412E; }
     body a:visited {
@@ -271,8 +271,7 @@ body {
     position: relative;
     display: inline-block;
     left: 43%;
-    font-size: 1.5em;
-    letter-spacing: .15em; }
+    font-size: 1.5em; }
   #headWrapper .fa {
     font-size: 2.5em;
     position: relative; }
@@ -280,7 +279,8 @@ body {
       cursor: pointer; }
   #headWrapper #verticalIcons {
     position: fixed;
-    padding-right: 5%; }
+    padding: 0 1.5%;
+    margin: 1% 5% 0 0%; }
 
 #pageWrapper {
   font-size: 1.5em;

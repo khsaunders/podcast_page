@@ -278,6 +278,11 @@ body {
         letter-spacing: 0.1em;
         width: 90%;
         margin: auto;
+        .pageTitle--desc{
+          font-size: .35em;
+          font-family: $font2;
+          letter-spacing: normal;
+        }
     }
     .podcastPlug {
         position: relative;

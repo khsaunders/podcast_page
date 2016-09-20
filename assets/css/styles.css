@@ -267,6 +267,10 @@ body {
     letter-spacing: 0.1em;
     width: 90%;
     margin: auto; }
+    #headWrapper .pageTitle .pageTitle--desc {
+      font-size: .35em;
+      font-family: Lato, serif;
+      letter-spacing: normal; }
   #headWrapper .podcastPlug {
     position: relative;
     display: inline-block;

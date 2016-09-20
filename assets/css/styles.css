@@ -245,7 +245,7 @@
 body {
   background-color: #A3C8F3;
   color: #FBF6F5;
-  font-family: Lato, serif; }
+  font-family: "Slabo 27px", serif; }
   body a {
     color: #C2412E; }
     body a:visited {
@@ -262,20 +262,22 @@ body {
   display: block; }
   #headWrapper .pageTitle {
     text-align: right;
-    font-family: Alfa Slab One, serif;
+    font-family: "Alfa Slab One", serif;
     font-size: 5em;
     letter-spacing: 0.1em;
     width: 90%;
-    margin: auto; }
+    margin: auto;
+    padding-bottom: 8%; }
     #headWrapper .pageTitle .pageTitle--desc {
-      font-size: .35em;
-      font-family: Lato, serif;
+      font-size: .5em;
+      font-family: "Slabo 27px", serif;
       letter-spacing: normal; }
   #headWrapper .podcastPlug {
     position: relative;
     display: inline-block;
     left: 43%;
-    font-size: 1.5em; }
+    font-size: 1.5em;
+    font-weight: bold; }
   #headWrapper .fa {
     font-size: 2.5em;
     position: relative; }

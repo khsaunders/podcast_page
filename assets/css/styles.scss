@@ -1,5 +1,5 @@
-$font1: Alfa Slab One, serif;
-$font2: Lato, serif;
+$font1: 'Alfa Slab One', serif;
+$font2: 'Slabo 27px', serif;
 $darkColor: #31497D;
 $midColor: #A3C8F3;
 $accentColor: #C2412E;
@@ -278,8 +278,9 @@ body {
         letter-spacing: 0.1em;
         width: 90%;
         margin: auto;
+        padding-bottom: 8%;
         .pageTitle--desc{
-          font-size: .35em;
+          font-size: .5em;
           font-family: $font2;
           letter-spacing: normal;
         }
@@ -289,6 +290,7 @@ body {
         display: inline-block;
         left: 43%;
         font-size: 1.5em;
+        font-weight: bold;
     }
     .fa{
         font-size: 2.5em;
